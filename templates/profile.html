@@ -1,0 +1,31 @@
+<!-- profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h2>My Profile</h2>
+        {% if 'user_id' in session %}
+            <div id="logout-profile">
+                <button onclick="window.location.href='{{ url_for('logout') }}'">Logout</button>
+            </div>
+        {% endif %}
+    </header>
+
+    <div id="profile-container">
+        <h2>Welcome, {{ user[0] }}!</h2>
+        <p>Email: {{ user[1] }}</p>
+        <p>Bio: {% if profile[0] %}{{ profile[0] }}{% else %}...{% endif %} </p>
+        <p>Date of birth: {% if profile[1] %}{{ profile[1].strftime('%Y-%m-%d') }}{% else %}N/A{% endif %} </p>
+    </div>
+
+    <footer>
+        <a href="{{ url_for('select_genre') }}">Back to Movies</a>
+    </footer>
+</body>
+</html>

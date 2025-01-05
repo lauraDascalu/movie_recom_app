@@ -1,0 +1,102 @@
+Signature-Version: 1.0
+Created-By: 11.0.25 (Oracle Corporation)
+SHA-256-Digest-Manifest: UPScH3UICWmIq7dG40iDigv24POhMtNAxcwfc2ghEew=
+SHA-256-Digest-Manifest-Main-Attributes: rXGLzFRoiTCUr2HhBcoohKqa0SdlZ6G
+ pz173+fKLH2E=
+
+Name: instantclient_23_6/ociw32.dll
+SHA-256-Digest: LgIMCzWMvZads98bcPdUMGGf52KkxB4B/FQhhnBEEeE=
+
+Name: instantclient_23_6/fips.dll
+SHA-256-Digest: bXJr7JYJPiLZxbT0qOqUR1Lz1GterPzo0l8R1mBPlfI=
+
+Name: instantclient_23_6/oraociicus.sym
+SHA-256-Digest: 32miFpSoWKoqfOWipmd21nnd44n3KeniSlu61Tvg1g4=
+
+Name: instantclient_23_6/ocijdbc23.dll
+SHA-256-Digest: rmMFNhhCqVDJKhwG/DeNfSTCvg8cIv4UgiDNqLSvr3s=
+
+Name: instantclient_23_6/oraocci23d.dll
+SHA-256-Digest: 06Bu8xAJpiukcQ7vxRmPI6L1rXmK0gQdfvpin/AS8yw=
+
+Name: instantclient_23_6/oci.sym
+SHA-256-Digest: KYvJLJ1jiA01AUjwzCCZDB2aOxrJPgb+rxNs4C9fgyk=
+
+Name: instantclient_23_6/legacy.dll
+SHA-256-Digest: HGNZW/ddKnSVKraHWm3JcmaGdeMogBIJyXk3AV2UuEg=
+
+Name: instantclient_23_6/oraocci23.dll
+SHA-256-Digest: tA633SPDLWastqe5AqOWphElzJ/VLYFmxU2snw4hMns=
+
+Name: instantclient_23_6/uidrvci.exe
+SHA-256-Digest: +gEMKLEccMyxndWa9TxKuQKCBWr2o53wxOvVvmI9nQ8=
+
+Name: instantclient_23_6/genezi.exe
+SHA-256-Digest: PzEeNi0kRUgawTFEeTHoSOc/PmPl4sRhvJtJLoeXe5E=
+
+Name: instantclient_23_6/BASIC_LITE_LICENSE
+SHA-256-Digest: aGbq4eEGY1RlTnMlh7BAX94KIPKur2P7makj09xd5+g=
+
+Name: instantclient_23_6/ojdbc8.jar
+SHA-256-Digest: PC4e20ghImFGnkdCqAaArQ44jxd+9SLRAtnBuLN076E=
+
+Name: instantclient_23_6/orasql.dll
+SHA-256-Digest: qQArZhgdlARjGfQcZejfDhNjZ2WRFTBoeRXGj5kTzrg=
+
+Name: instantclient_23_6/xstreams.jar
+SHA-256-Digest: dEDA1nf5T1D5BcQPBeIodcVjlTo75zFX7ou8CBNPmyk=
+
+Name: instantclient_23_6/orannz.sym
+SHA-256-Digest: z8ZL96Or1RUsOle3KE6tl7yBSo7hbLjNsQYyKBXyRNE=
+
+Name: instantclient_23_6/uidrvci.sym
+SHA-256-Digest: dDJGrYZQuQA0Bb5pAfxWCoPqNrk5TKoYLZb2miybu7w=
+
+Name: instantclient_23_6/genezi.sym
+SHA-256-Digest: D/Qp2G5M/wm6WXBZ6xhWg+0355dcgHYBJJgeM2n2NXw=
+
+Name: instantclient_23_6/oraocci23d.sym
+SHA-256-Digest: VKpRl/kSE0Harb273ZPJyA4ro6dgCgNUx6RyofNRYu8=
+
+Name: instantclient_23_6/network/admin/README
+SHA-256-Digest: 02VNiPMamufb3SCXr5r8Tv7cgN8CFWyZ1uQhPZl+EKw=
+
+Name: instantclient_23_6/oci.dll
+SHA-256-Digest: KY9vP7fsb2cV/jpkdPA91xkcz9b++CiTAMtzNBSyQLI=
+
+Name: instantclient_23_6/ociw32.sym
+SHA-256-Digest: K0Uwr3mbz/xjrTxuOMV5EkrxBipkFMhbfQXecQvAI58=
+
+Name: instantclient_23_6/ucp.jar
+SHA-256-Digest: jWP08qeotP/6fxIYFnYKxTSZN94VqMQyKXmzVnvQ9p8=
+
+Name: instantclient_23_6/adrci.exe
+SHA-256-Digest: 5pvqX7JzWRRhbkc6cLdXyrJuJepFx0JWJWiN3yUFhEY=
+
+Name: instantclient_23_6/BASIC_LITE_README
+SHA-256-Digest: j1+SEaBHohUOTHAfBO9EnEGkNt9Z6MhpeDDy4Dnp4sQ=
+
+Name: instantclient_23_6/oraocci23.sym
+SHA-256-Digest: UTxXYoWTKN9qVfFGjPqg9nYI4vv0u49sGPN3XBsZz/w=
+
+Name: instantclient_23_6/pkcs11.dll
+SHA-256-Digest: n0PgPZdl3iK3bSGlhfbVN5cNcySXTvPpQqKoz8qzq4A=
+
+Name: instantclient_23_6/oraociicus.dll
+SHA-256-Digest: ZQ9eYLIxdMI7jRzR+kgO8D8orhJsbsUIcrFfmnPRiE4=
+
+Name: instantclient_23_6/orasql.sym
+SHA-256-Digest: LdjSgbqcUHnwN/ec6zooBWdcuUocGMO/xLMxBpvkypo=
+
+Name: instantclient_23_6/ocijdbc23.sym
+SHA-256-Digest: ra2Om/XQ/n1EsplySKOZHNjDr5ogi4hn6EgKUanxq8U=
+
+Name: instantclient_23_6/orannz.dll
+SHA-256-Digest: X9ZswsMtqzxhbdhc66hvzja+zQFfsJXbVW7pt/9MAf0=
+
+Name: instantclient_23_6/adrci.sym
+SHA-256-Digest: flJgTomg1eX1MYioxZIaeiRTV94359Ne+fcEQ9EnYD0=
+
+Name: instantclient_23_6/extks.dll
+SHA-256-Digest: TRm+jO4xDCMgZlVUzVwXEG5IojH9Les1OJ0GMpXX2ro=
+

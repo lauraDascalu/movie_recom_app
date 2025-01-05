@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ genre_name }} Movies</title> <!-- Display the selected genre in the title -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+         <h2>{{ genre_name }} Movies</h2>
+         {% if 'user_id' in session %}
+             <div id="logout-profile">
+                <button onclick="window.location.href='{{ url_for('logout') }}'">Logout</button>
+                <button onclick="window.location.href='{{ url_for('profile') }}'">My Profile</button>
+             </div>
+        {% endif %}
+    </header>
+    <table border="1" >
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for movie in movies %}
+                <tr>
+                    <td>{{ movie[1] }}</td> <!-- Movie Title -->
+                    <td>
+                        {% if movie[2] %}
+                            {{ movie[2] }} / 5 <!-- Average Rating -->
+                        {% else %}
+                            Not Rated <!-- If no average rating -->
+                        {% endif %}
+                    </td>
+                    <td>
+                        <form action="{{ url_for('rate_movie', movie_id=movie[0]) }}" method="GET" style="display:inline;">
+                            <button type="submit">Rate</button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Movie Recommendation App!</h1>
+        <p>Discover your next favorite movie!</p>
+    </header>
+
+    <section id="buttons">
+        <button onclick="window.location.href='{{ url_for('register') }}'">Register</button>
+        <button onclick="window.location.href='{{ url_for('login') }}'">Login</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Databases Project TUIASI </p>
+    </footer>
+</body>
+</html>
+

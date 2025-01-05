@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Movie Genre</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h2>Select a Movie Genre to get recommendations</h2>
+        {% if 'user_id' in session %}
+            <div id="logout-profile">
+                <button onclick="window.location.href='{{ url_for('logout') }}'">Logout</button>
+                <button onclick="window.location.href='{{ url_for('profile') }}'">My Profile</button>
+            </div>
+        {% endif %}
+    </header>
+
+    <form method="POST">
+        {% for genre in genres %}
+            <input type="radio" id="genre_{{ genre[0] }}" name="genre_id" value="{{ genre[0] }} " required>
+            <label for="genre_{{ genre[0] }}">{{ genre[1] }}</label>
+        {% endfor %}
+        <br><button type="submit">Submit</button>
+    </form>
+</body>
+</html>
