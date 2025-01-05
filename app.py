@@ -6,13 +6,13 @@ app.secret_key = 'secret_key'
 
 def get_db_connection():
     try:
-        username = 'bd101'
-        password = 'bd101'
-        host = 'bd-dc.cs.tuiasi.ro'
-        port = '1539'
-        service_name = 'orcl'
+        username = '***'
+        password = '***'
+        host = '***'
+        port = '***'
+        service_name = '***'
 
-        connection = cx_Oracle.connect(username, password,'bd-dc.cs.tuiasi.ro:1539/orcl')
+        connection = cx_Oracle.connect(username, password,'***:***/***')
         print("Connection successful")
         return connection
     except cx_Oracle.DatabaseError as e:
